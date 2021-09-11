@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import "./Header.scss";
+import "./ChatInput.scss";
 
-class Header extends Component {
+class ChatInput extends Component {
   render() {
     return (
-      <div className="Header">
+      <div className="ChatInput">
         <input onKeyDown={this.props.send} />
       </div>
     );
   }
 }
 
-export default Header;
+export default ChatInput;

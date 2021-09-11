@@ -1,3 +1,3 @@
-import Header from "./header.jsx";
+import ChatInput from "./ChatInput.jsx";
 
-export default Header;
+export default ChatInput;
